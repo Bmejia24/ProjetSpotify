@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9187DA9C25E54FD300F3DD0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9187DA9B25E54FD300F3DD0D /* AppDelegate.swift */; };
+		9187DA9E25E54FD300F3DD0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9187DA9D25E54FD300F3DD0D /* SceneDelegate.swift */; };
+		9187DAA025E54FD300F3DD0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9187DA9F25E54FD300F3DD0D /* ViewController.swift */; };
+		9187DAA325E54FD300F3DD0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9187DAA125E54FD300F3DD0D /* Main.storyboard */; };
+		9187DAA525E54FD400F3DD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9187DAA425E54FD400F3DD0D /* Assets.xcassets */; };
+		9187DAA825E54FD400F3DD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9187DAA625E54FD400F3DD0D /* LaunchScreen.storyboard */; };
+		9187DAB325E54FD400F3DD0D /* SpotyfiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9187DAB225E54FD400F3DD0D /* SpotyfiTests.swift */; };
+		9187DABE25E54FD400F3DD0D /* SpotyfiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9187DABD25E54FD400F3DD0D /* SpotyfiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9187DAAF25E54FD400F3DD0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9187DA9025E54FD300F3DD0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9187DA9725E54FD300F3DD0D;
+			remoteInfo = Spotyfi;
+		};
+		9187DABA25E54FD400F3DD0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9187DA9025E54FD300F3DD0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9187DA9725E54FD300F3DD0D;
+			remoteInfo = Spotyfi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9187DA9825E54FD300F3DD0D /* Spotyfi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotyfi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9187DA9B25E54FD300F3DD0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9187DA9D25E54FD300F3DD0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9187DA9F25E54FD300F3DD0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9187DAA225E54FD300F3DD0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9187DAA425E54FD400F3DD0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9187DAA725E54FD400F3DD0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9187DAA925E54FD400F3DD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9187DAAE25E54FD400F3DD0D /* SpotyfiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotyfiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9187DAB225E54FD400F3DD0D /* SpotyfiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotyfiTests.swift; sourceTree = "<group>"; };
+		9187DAB425E54FD400F3DD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9187DAB925E54FD400F3DD0D /* SpotyfiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotyfiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9187DABD25E54FD400F3DD0D /* SpotyfiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotyfiUITests.swift; sourceTree = "<group>"; };
+		9187DABF25E54FD400F3DD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9187DA9525E54FD300F3DD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9187DAAB25E54FD400F3DD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9187DAB625E54FD400F3DD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9187DA8F25E54FD300F3DD0D = {
+			isa = PBXGroup;
+			children = (
+				9187DA9A25E54FD300F3DD0D /* Spotyfi */,
+				9187DAB125E54FD400F3DD0D /* SpotyfiTests */,
+				9187DABC25E54FD400F3DD0D /* SpotyfiUITests */,
+				9187DA9925E54FD300F3DD0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9187DA9925E54FD300F3DD0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9187DA9825E54FD300F3DD0D /* Spotyfi.app */,
+				9187DAAE25E54FD400F3DD0D /* SpotyfiTests.xctest */,
+				9187DAB925E54FD400F3DD0D /* SpotyfiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9187DA9A25E54FD300F3DD0D /* Spotyfi */ = {
+			isa = PBXGroup;
+			children = (
+				9187DA9B25E54FD300F3DD0D /* AppDelegate.swift */,
+				9187DA9D25E54FD300F3DD0D /* SceneDelegate.swift */,
+				9187DA9F25E54FD300F3DD0D /* ViewController.swift */,
+				9187DAA125E54FD300F3DD0D /* Main.storyboard */,
+				9187DAA425E54FD400F3DD0D /* Assets.xcassets */,
+				9187DAA625E54FD400F3DD0D /* LaunchScreen.storyboard */,
+				9187DAA925E54FD400F3DD0D /* Info.plist */,
+			);
+			path = Spotyfi;
+			sourceTree = "<group>";
+		};
+		9187DAB125E54FD400F3DD0D /* SpotyfiTests */ = {
+			isa = PBXGroup;
+			children = (
+				9187DAB225E54FD400F3DD0D /* SpotyfiTests.swift */,
+				9187DAB425E54FD400F3DD0D /* Info.plist */,
+			);
+			path = SpotyfiTests;
+			sourceTree = "<group>";
+		};
+		9187DABC25E54FD400F3DD0D /* SpotyfiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9187DABD25E54FD400F3DD0D /* SpotyfiUITests.swift */,
+				9187DABF25E54FD400F3DD0D /* Info.plist */,
+			);
+			path = SpotyfiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9187DA9725E54FD300F3DD0D /* Spotyfi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9187DAC225E54FD400F3DD0D /* Build configuration list for PBXNativeTarget "Spotyfi" */;
+			buildPhases = (
+				9187DA9425E54FD300F3DD0D /* Sources */,
+				9187DA9525E54FD300F3DD0D /* Frameworks */,
+				9187DA9625E54FD300F3DD0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spotyfi;
+			productName = Spotyfi;
+			productReference = 9187DA9825E54FD300F3DD0D /* Spotyfi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9187DAAD25E54FD400F3DD0D /* SpotyfiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9187DAC525E54FD400F3DD0D /* Build configuration list for PBXNativeTarget "SpotyfiTests" */;
+			buildPhases = (
+				9187DAAA25E54FD400F3DD0D /* Sources */,
+				9187DAAB25E54FD400F3DD0D /* Frameworks */,
+				9187DAAC25E54FD400F3DD0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9187DAB025E54FD400F3DD0D /* PBXTargetDependency */,
+			);
+			name = SpotyfiTests;
+			productName = SpotyfiTests;
+			productReference = 9187DAAE25E54FD400F3DD0D /* SpotyfiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9187DAB825E54FD400F3DD0D /* SpotyfiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9187DAC825E54FD400F3DD0D /* Build configuration list for PBXNativeTarget "SpotyfiUITests" */;
+			buildPhases = (
+				9187DAB525E54FD400F3DD0D /* Sources */,
+				9187DAB625E54FD400F3DD0D /* Frameworks */,
+				9187DAB725E54FD400F3DD0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9187DABB25E54FD400F3DD0D /* PBXTargetDependency */,
+			);
+			name = SpotyfiUITests;
+			productName = SpotyfiUITests;
+			productReference = 9187DAB925E54FD400F3DD0D /* SpotyfiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9187DA9025E54FD300F3DD0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9187DA9725E54FD300F3DD0D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					9187DAAD25E54FD400F3DD0D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9187DA9725E54FD300F3DD0D;
+					};
+					9187DAB825E54FD400F3DD0D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9187DA9725E54FD300F3DD0D;
+					};
+				};
+			};
+			buildConfigurationList = 9187DA9325E54FD300F3DD0D /* Build configuration list for PBXProject "Spotyfi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9187DA8F25E54FD300F3DD0D;
+			productRefGroup = 9187DA9925E54FD300F3DD0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9187DA9725E54FD300F3DD0D /* Spotyfi */,
+				9187DAAD25E54FD400F3DD0D /* SpotyfiTests */,
+				9187DAB825E54FD400F3DD0D /* SpotyfiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9187DA9625E54FD300F3DD0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9187DAA825E54FD400F3DD0D /* LaunchScreen.storyboard in Resources */,
+				9187DAA525E54FD400F3DD0D /* Assets.xcassets in Resources */,
+				9187DAA325E54FD300F3DD0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9187DAAC25E54FD400F3DD0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9187DAB725E54FD400F3DD0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9187DA9425E54FD300F3DD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9187DAA025E54FD300F3DD0D /* ViewController.swift in Sources */,
+				9187DA9C25E54FD300F3DD0D /* AppDelegate.swift in Sources */,
+				9187DA9E25E54FD300F3DD0D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9187DAAA25E54FD400F3DD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9187DAB325E54FD400F3DD0D /* SpotyfiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9187DAB525E54FD400F3DD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9187DABE25E54FD400F3DD0D /* SpotyfiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9187DAB025E54FD400F3DD0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9187DA9725E54FD300F3DD0D /* Spotyfi */;
+			targetProxy = 9187DAAF25E54FD400F3DD0D /* PBXContainerItemProxy */;
+		};
+		9187DABB25E54FD400F3DD0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9187DA9725E54FD300F3DD0D /* Spotyfi */;
+			targetProxy = 9187DABA25E54FD400F3DD0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9187DAA125E54FD300F3DD0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9187DAA225E54FD300F3DD0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9187DAA625E54FD400F3DD0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9187DAA725E54FD400F3DD0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9187DAC025E54FD400F3DD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9187DAC125E54FD400F3DD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9187DAC325E54FD400F3DD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Spotyfi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mejia.Spotyfi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9187DAC425E54FD400F3DD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Spotyfi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mejia.Spotyfi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9187DAC625E54FD400F3DD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotyfiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mejia.SpotyfiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotyfi.app/Spotyfi";
+			};
+			name = Debug;
+		};
+		9187DAC725E54FD400F3DD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotyfiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mejia.SpotyfiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotyfi.app/Spotyfi";
+			};
+			name = Release;
+		};
+		9187DAC925E54FD400F3DD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotyfiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mejia.SpotyfiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spotyfi;
+			};
+			name = Debug;
+		};
+		9187DACA25E54FD400F3DD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotyfiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mejia.SpotyfiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spotyfi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9187DA9325E54FD300F3DD0D /* Build configuration list for PBXProject "Spotyfi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9187DAC025E54FD400F3DD0D /* Debug */,
+				9187DAC125E54FD400F3DD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9187DAC225E54FD400F3DD0D /* Build configuration list for PBXNativeTarget "Spotyfi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9187DAC325E54FD400F3DD0D /* Debug */,
+				9187DAC425E54FD400F3DD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9187DAC525E54FD400F3DD0D /* Build configuration list for PBXNativeTarget "SpotyfiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9187DAC625E54FD400F3DD0D /* Debug */,
+				9187DAC725E54FD400F3DD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9187DAC825E54FD400F3DD0D /* Build configuration list for PBXNativeTarget "SpotyfiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9187DAC925E54FD400F3DD0D /* Debug */,
+				9187DACA25E54FD400F3DD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9187DA9025E54FD300F3DD0D /* Project object */;
+}
